@@ -2,7 +2,7 @@
 
 all: static
 
-SOURCE = StreamFaker.cpp mp4Writer.cpp mp4Writer.h
+SOURCE = StreamFaker.cpp
 TARGET = StreamFaker
 FFMPEG_PATH = /home/maozheng/local/ffmpeg
 X264_PATH = /home/maozheng/local/x264
