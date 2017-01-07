@@ -132,7 +132,7 @@ int main(int argc, char **argv)
 	fwrite(&audioDataSize, 4, 1, pfile);
 
 	int sizePerSec = format.wf.nAvgBytesperSec;
-	for (int i = 0; i < sizePerSec; i++)
+	for (int i = 0; i < 10; i++)
 		gBuf[i] = i % 3;
 	for (int i = 0; i < count; i++)
 	{
